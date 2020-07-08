@@ -843,3 +843,115 @@ address .link {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+/* .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  min-height: 581px;
+  background-color: #ffffff;
+} */
+textarea {
+  resize: none;
+}
+
+.form-studio {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 528px;
+  min-height: 581px;
+  background-color: #ffffff;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.form-order {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+
+  color: var(--primary-text-color);
+}
+
+.form-order-title {
+  font-family: Roboto;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.form-input {
+  margin: 0;
+  padding: 12px 20px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.form-label {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  display: flex;
+  align-items: flex-end;
+  transform: translateY(-50%);
+  transition: transform 250ms linear;
+}
+.label-comment {
+  position: absolute;
+  top: 15%;
+  left: 16px;
+  display: flex;
+  align-items: flex-end;
+  transform: translateY(-15%);
+  transition: transform 250ms linear;
+}
+
+.form-order textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.btn-form-studio {
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  position: absolute;
+  top: 8px;
+  right: 12.5px;
+}
+.btn-send {
+  margin-left: 120px;
+}
+.form-icon {
+  margin-right: 8px;
+  margin-left: 16px;
+}
