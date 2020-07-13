@@ -976,10 +976,8 @@ textarea {
   color: var(--accent-color);
 }
 
-.form-order:not(:placeholder-shown) + .form-label {
-  transform: translateY(-40px);
-}
-.form-order:focus-within {
+
+} .form-order:focus-within {
   border: 1px solid #2196f3;
 }
 .form-comment {
